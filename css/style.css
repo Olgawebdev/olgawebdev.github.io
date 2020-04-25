@@ -1,4 +1,5 @@
 @import 'fonts.css';
+@import 'font-awesome.css';
 
 * {
   font-family: "SF Display", sans-serif!important;
@@ -11,7 +12,7 @@
   min-height: 100vh;
 }
 .home-body::before{
-  content: '';
+  content: ''; 
   position: absolute;
   top: 0;
   right: 0;
@@ -43,12 +44,13 @@ body{
   right: -250px;
   /* background: transparent;  */
   background:  #173f03 ;
-  width: 150px;
+  width: 170px;
   height: 100% ;
   transition:.5s; 
 }
  .active{
   right: 0;
+  z-index: 10000;
 }
 ul{
   margin: 30px 0;
@@ -309,40 +311,36 @@ p{
 }
 .top-card{
   display: flex;
-  width: 150px;
-  height: 200px;
+  background-image: url('../img/Portfolio\ work\ 4.png') ;
+  width: 100%;
+  height: 250px;
 }
-/* .top-card img{
-  width: 30%;
-  height: 200px;
-  margin: 3px;
-} */
+
 .bottom-card{
+  display: flex;
   background: #000;
   position: relative;
-  top: 588px;
-  left: 259px;
-  width: 424px;
-  height: 379px;
-  
 }
 .bottom-card p{
   color: #ffffff;
   padding: 10px ;
 }
+.bottom-text {
+color: black;
+}
 button{
-  background: #000; 
+  background-color: black;
   transition: 0.5s;
   border: none;
-  padding-bottom: 10px;
+
 }
-button a{
+button  .btn .btn-primary a{
   font-weight: normal;
   text-decoration: none;
   color: white ;
-  /* padding: 5px 5px; */
+  
 }
-button a:hover{
+button .btn .btn-primary a:hover{
   color: #52f304;
   text-decoration: none;
 }
