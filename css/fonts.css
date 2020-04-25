@@ -1,0 +1,25 @@
+@font-face{
+  /* Thin Italic */
+  /* font-family: "SF Display";
+  font-weight: 300;
+  font-style: italic;
+  src: url("../fonts/sf-ui-display-heavy-586470160b9e5.otf"); */
+
+  /* Thin */
+  font-family: "SF Display";
+  font-weight: 300;
+  font-style: normal;
+  src: url("../fonts/sf-ui-display-thin-58646e9b26e8b.otf");
+
+  /* Thin Light */
+  font-family: "SF Display";
+  font-weight: 300;
+  font-style: normal;
+  src: url("../fonts/sf-ui-display-light-58646b33e0551.otf");
+
+  /* Heavy
+  font-family: "SF Display";
+  font-weight: 400;
+  font-style: normal;
+  src: url("../fonts/sf-ui-display-heavy-586470160b9e5.otf"); */
+}
